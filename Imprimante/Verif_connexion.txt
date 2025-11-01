@@ -1,0 +1,10 @@
+@echo off
+ping -4 EPSON3581C8.local -n 1 >nul 2>&1
+
+if errorlevel 1 (
+    echo La connexion avec l'imprimante n'est pas detectee.
+) else (
+    echo La connexion avec l'imprimante est detectee.
+)
+
+pause
