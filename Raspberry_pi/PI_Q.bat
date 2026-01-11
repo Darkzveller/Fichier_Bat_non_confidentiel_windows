@@ -1,0 +1,2 @@
+@echo off
+powershell -NoExit -Command "Write-Host 'Lancement de xming'; & 'C:\Program Files (x86)\Xming\config.xlaunch'; Write-Host 'Parametrage environnement'; $env:DISPLAY='127.0.0.1:0.0'; Write-Host 'Lancement du ssh avec pit'; ssh -X -Y pi@rasberpi.local"
