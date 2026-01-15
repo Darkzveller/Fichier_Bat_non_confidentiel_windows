@@ -7,7 +7,8 @@ REM timeout /t %WAIT_SEC% >nul 2>&1
 REM ping -4 EPSON3581C8.local -n 4 >nul 2>&1
 
 REM Permet de pign l'imprimante
-ping -4 EPSON3581C8.local -n 4
+REM ping -4 EPSON3581C8.local -n 4
+ping -4 192.168.1.153 -n 4 >nul
 
 REM Permet de sauter de 2 lignes
 echo.
