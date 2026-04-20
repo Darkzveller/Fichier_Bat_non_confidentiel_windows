@@ -1,0 +1,5 @@
+[wsl2]
+memory=2GB
+processors=2
+swap=2GB
+PENSAIT A CREER LE .wslconfig dans C:\Users\elkat et apres de faire un wsl --shutdown
