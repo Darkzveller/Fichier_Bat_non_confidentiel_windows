@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+;Activation de l'affichage des secondes dans l'horloge Windows
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ShowSecondsInSystemClock"=dword:00000001
