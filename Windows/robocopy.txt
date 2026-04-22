@@ -1,0 +1,12 @@
+robocopy "D:\Images" "C:\Users\MACE-26\Desktop\safe_pc\Images" /E /R:0 /W:0
+
+
+robocopy "D:\Images" "C:\Users\elkat\Pictures" /E /R:0 /W:0
+
+robocopy "D:\Documentss" "C:\Users\elkat\Documents" /E /R:0 /W:0
+
+
+
+robocopy "D:\Bureau" "C:\Users\elkat\Desktop" /E /R:0 /W:0
+
+robocopy "D:\Telechagee" "C:\Users\elkat\Downloads" /E /R:0 /W:0
