@@ -12,6 +12,12 @@ if %errorlevel% neq 0 (
     exit
 )
 
+:: Demander confirmation
+set /p confirm="Voulez-vous vraiment supprimer TOUS les fichiers et registres MATLAB ? (O/N) : "
+if /i "%confirm%" neq "O" exit
+
+
+
 echo [1/4] Arret des services et processus MathWorks...
 :: Arrete le service de fond qui bloque vos DLL
 sc stop MathWorksServiceHost >nul 2>&1
