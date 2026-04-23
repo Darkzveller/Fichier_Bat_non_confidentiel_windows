@@ -1,0 +1,23 @@
+Procédure de "Nettoyage Total" pour réinstallation
+Si vous voulez repartir de zéro (car un fichier "lim" ou "log" semble bloquer), suivez cet ordre précis :
+
+Désinstallez MATLAB via le panneau de configuration.
+
+Supprimez ces trois dossiers manuellement :
+
+%AppData%\MathWorks
+
+%LocalAppData%\MathWorks
+
+C:\ProgramData\MathWorks
+
+C:\ProgramData\MathWorks\Licenses
+
+
+Nettoyez le Registre (ce que vous avez déjà commencé) :
+
+Supprimez HKEY_CURRENT_USER\Software\MathWorks
+
+Supprimez HKEY_LOCAL_MACHINE\SOFTWARE\MathWorks
+
+Redémarrez votre PC avant de tenter une réinstallation.
